@@ -26,11 +26,13 @@
                 </tr>
             </thead>
             <tbody>
+                {{ # redirects }}
                 <tr>
-                    <td>example.com</td>
-                    <td>new-example.com</td>
-                    <td><a href="/delete">delete</a></td>
+                    <td>{{ entry }}</td>
+                    <td>{{ destination }}</td>
+                    <td class="actions"><a href="/apiv0/{{ id }}/delete">delete</a></td>
                 </tr>
+                {{ / redirects }}
             </tbody>
         </table>
     </section>
