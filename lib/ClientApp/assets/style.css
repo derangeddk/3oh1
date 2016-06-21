@@ -1,5 +1,5 @@
 body {
-    background: rgba(0,0,0,0.02);
+    background: rgba(0,0,0,0.04);
     margin: 0;
     font-family: Raleway, sans-serif;
     margin-bottom: 200px;
@@ -68,6 +68,7 @@ header nav .logo {
     display: inline-block;
     padding: 25px;
     box-sizing: border-box;
+    background: white;
 }
 .sign-up-form h1 {
     font-size: 1.8em;
@@ -79,6 +80,7 @@ header nav .logo {
 }
 .sign-up-form label {
     margin-left: 2px;
+    width: 95%;
     display: block;
     text-align: left;
     font-size: 0.8em;
@@ -105,4 +107,50 @@ header nav .logo {
     font-size: 1.2em;
     font-family: Raleway;
     cursor: pointer;
+}
+.dashboard section {
+    border: 1px solid #80A4ED;
+    background: white;
+    display: inline-block;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 900px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.dashboard section h1 {
+    margin: 5px 0 25px;
+}
+.add-redirect-form input, .add-redirect-form button {
+    font-size: inherit;
+    font-family: inherit;
+}
+.add-redirect-form input {
+    width: 250px;
+    border: none;
+    border-bottom: 1px dashed black;
+    margin: 0 10px;
+}
+table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+table th {
+    background: rgba(0,0,0,0.2);
+    font-size: 1.1em;
+}
+table tbody tr {
+    border-bottom: 1px solid rgba(0,0,0,0.4);
+}
+table td {
+    color: rgba(0,0,0,0.7);
+}
+table td, table th {
+    padding: 5px 8px;
+}
+table a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 0.8em;
 }

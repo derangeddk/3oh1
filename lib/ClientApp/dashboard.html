@@ -1,0 +1,37 @@
+<div class="dashboard">
+    <section class="add-redirect-section">
+        <h1>Add a redirect</h1>
+        <form class="add-redirect-form" action="/add">
+            <label for="from">
+                From
+                <input type="text" name="from" placeholder="my-home.olddomain.com">
+            </label>
+            <label for="to">
+                to
+                <input type="text" name="to" placeholder="my-home.cool-place.xyz">
+            </label>
+            <button type="submit">
+                Add
+            </button>
+        </form>
+    </section>
+    <section class="list-redirects-section">
+        <h1>Active redirects</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>From</th>
+                    <th>To</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>example.com</td>
+                    <td>new-example.com</td>
+                    <td><a href="/delete">delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
